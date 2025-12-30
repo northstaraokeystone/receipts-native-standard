@@ -1,137 +1,146 @@
-RECEIPTS-NATIVE ARCHITECTURE: FORMAL DEFINITION
-Matthew Cook, Keystone Research Lab | January 2025 | v1.0
+# Receipts-Native Standard
 
-DEFINITION
-Receipts-native architecture makes cryptographic receipts the primary data structure, not secondary logging. Every operation returns (result, receipt) where receipt = dual-hash proof (SHA256:BLAKE3) with Merkle lineage. Governance, auditability, and verifiability emerge from substrate, not external tooling.
-Compliance Test: Can you reconstruct system state from receipts.jsonl alone? If no → not receipts-native.
+**The canonical definition of receipts-native architecture.**
 
-SIX CORE PRINCIPLES
-#
-Principle
-Test
-Violation
-1
-Native Provenance
-Receipt is PRIMARY output
-logger.info() instead of emit_receipt()
-2
-Cryptographic Lineage
-Trace any receipt to genesis
-Receipts without parent hash references
-3
-Verifiable Causality
-Audit without source code access
-Decisions lacking input receipt hashes
-4
-Query-as-Proof
-Proofs derived, not stored
-Pre-computed fraud alerts in separate table
-5
-Thermodynamic Governance
-|ΔS| < 0.01 entropy conservation
-Metrics-based health (CPU, uptime)
-6
-Receipts-Gated Progress
-No receipt → StopRule exception
-Deployment without gate receipt
+[![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
+[![Working Group](https://img.shields.io/badge/Working%20Group-Recruiting-blue.svg)](./RECRUITING.md)
 
-
-PROOF: PRODUCTION SYSTEMS
-System
-Domain
-Receipts/Cycle
-Key Metric
-Repo
-ProofPack
-Gov fraud ($1T+ addressable)
-847 avg
-Compression 0.88 legit / 0.62 fraud
-github.com/northstaraokeystone/proofpack
-QED v12
-Autonomous telemetry
-1000
-|ΔS| = 0.003 (1000 cycles, 0 violations)
-github.com/northstaraokeystone/qed
-AXIOM
-Physics discovery
-342 avg
-Singularity convergence at cycle 1847/10000
-github.com/northstaraokeystone/axiom
-
-Validation: All systems pass 7 mandatory Monte Carlo scenarios (BASELINE, STRESS, TOPOLOGY, CASCADE, COMPRESSION, SINGULARITY, THERMODYNAMIC). Total simulation runtime: 35min parallel, 100% pass rate.
-
-DISTINCTIONS
-Architecture
-Primary Structure
-Verification
-Offline Capable
-Consensus Required
-Receipts-Native
-Receipt (proof)
-Cryptographic lineage
-Yes
-No
-Blockchain
-Block (consensus)
-Distributed validation
-No
-Yes
-Event Sourcing
-Event (history)
-Replay
-Yes
-No
-Audit Logging
-Log (retrospective)
-Manual review
-Yes
-No
-
-Key Difference: Receipts-native makes accountability architectural (cannot build without), not operational (added after).
-
-VERIFICATION PROTOCOL
-python
-# Compliance Suite (6 tests, <5sec runtime)
-def verify_receipts_native(system):
-    assert reconstruct_state(receipts) == system.state  # P1
-    assert trace_to_genesis(random_receipt())      	# P2
-    assert verify_decision_lineage(no_source_code=True) # P3
-    assert derive_proof(query) == compute(receipts)	# P4
-    assert abs(entropy_delta) < 0.01               	# P5
-    assert raises(StopRule, advance_without_gate)  	# P6
-```
- 
-**Pass all 6 → System is receipts-native.** Fail any → System is receipts-augmented (not native).
- 
 ---
- 
-## COMPRESSION = DISCOVERY (PHYSICS FOUNDATION)
- 
-Legitimate operations compress efficiently (≥0.85 ratio). Fraudulent operations evade detection → incompressible (<0.70 ratio).
- 
-**Empirical:** ProofPack tested against 147 documented Medicare fraud cases (2019-2024). Compression-based detection: 100% recall, 0% false positives. Traditional ML: 87% recall, 12% false positives.
- 
-**Why:** Fraud must randomize to evade pattern detection. Randomness = high entropy = low compression. Physics decides, not heuristics.
- 
+
+## What is Receipts-Native?
+
+**Receipts-native architecture** makes cryptographic receipts the primary data structure, not secondary logging. Every operation returns `(result, receipt)` where receipts form a Merkle-linked chain to genesis.
+
+**The test:** Can you reconstruct system state from `receipts.jsonl` alone? If no → not receipts-native.
+
+**Why it matters:** Accountability becomes *architectural* (cannot build without) rather than *operational* (added after).
+
 ---
- 
-## REFERENCE IMPLEMENTATION
- 
-**Starter Kit:** `github.com/receipts-native-standard/starter`
-- Core primitives: `dual_hash()`, `emit_receipt()`, `merkle_root()`, `StopRule()`
-- Compliance suite: 6 principle tests
-- Migration guide: Logging → Receipts-native (10 steps)
-- Runtime: <100 lines Python, zero dependencies
- 
-**Clone → Run tests → Verify your system (10 minutes).**
- 
-## CITATION
+
+## Quick Links
+
+| Resource | Description |
+|----------|-------------|
+| [**DEFINITION.md**](./DEFINITION.md) | The formal v1.1 standard |
+| [**Working Group**](./working-group/) | Charter, members, roadmap |
+| [**RECRUITING.md**](./RECRUITING.md) | Join the steering committee |
+| [**ProofPack**](https://github.com/northstaraokeystone/ProofPack) | Reference implementation |
+
+---
+
+## Six Core Principles
+
+| # | Principle | Test |
+|---|-----------|------|
+| 1 | **Native Provenance** | Receipt is PRIMARY output |
+| 2 | **Cryptographic Lineage** | Trace any receipt to genesis |
+| 3 | **Verifiable Causality** | Audit without source code access |
+| 4 | **Query-as-Proof** | Proofs derived, not stored |
+| 5 | **Thermodynamic Governance** | Entropy conservation verified |
+| 6 | **Receipts-Gated Progress** | No receipt → StopRule exception |
+
+Pass all 6 → receipts-native. Fail any → receipts-augmented.
+
+---
+
+## Reference Implementation
+
+[**ProofPack**](https://github.com/northstaraokeystone/ProofPack) demonstrates receipts-native compliance for government fraud detection:
+
+- **147 Medicare fraud cases:** 100% recall, 0% false positives
+- **Compression-based detection:** Physics decides, not heuristics
+- **Production-ready:** Built and deployed
+
+---
+
+## Working Group
+
+We're building the receipts-native category with a working group from day zero.
+
+### Current State (Honest)
+
+| Metric | Status |
+|--------|--------|
+| Steering members | 1 (founder) |
+| Open seats | 6 |
+| First meeting | February 2025 |
+
+### Open Seats
+
+We're recruiting experts in:
+- ZK/Cryptography
+- Enterprise Compliance
+- Government/Defense
+- Healthcare/FDA
+- Autonomous Systems
+- Open Source Infrastructure
+
+**[Apply to join →](./RECRUITING.md)**
+
+---
+
+## Repository Structure
+
 ```
-Cook, M. (2025). "Receipts-Native Architecture: Formal Definition."
-Keystone Research Lab.
-https://github.com/receipts-native-standard/canonical-definition
-BibTeX:
-bibtex
+receipts-native-standard/
+├── README.md                    # You are here
+├── DEFINITION.md                # The formal standard (v1.1)
+├── CHANGELOG.md                 # Version history
+├── LICENSE                      # CC-BY-4.0
+├── RECRUITING.md                # Join the working group
+├── working-group/
+│   ├── CHARTER.md               # Governance model
+│   ├── MEMBERS.md               # Current + recruiting
+│   ├── ROADMAP.md               # 12-month plan
+│   ├── CONTRIBUTION_GUIDE.md    # How to contribute
+│   └── meetings/                # Meeting notes
+├── metrics/
+│   └── CURRENT_STATE.md         # Honest adoption tracking
+├── pilots/
+│   ├── TARGET_LIST.md           # Pilot pipeline
+│   └── templates/               # Outreach materials
+└── .github/
+    └── ISSUE_TEMPLATE/          # Working group applications
+```
+
+---
+
+## Get Started
+
+### Implement the Standard
+
+1. Read [DEFINITION.md](./DEFINITION.md)
+2. Review [ProofPack](https://github.com/northstaraokeystone/ProofPack) as reference
+3. Run compliance tests against your system
+4. Add your implementation to [MEMBERS.md](./working-group/MEMBERS.md)
+
+### Contribute to the Standard
+
+1. Read [CONTRIBUTION_GUIDE.md](./working-group/CONTRIBUTION_GUIDE.md)
+2. Open issues for proposals
+3. Join the working group
+
+### Join the Working Group
+
+1. Review [CHARTER.md](./working-group/CHARTER.md)
+2. Check open seats in [RECRUITING.md](./RECRUITING.md)
+3. Apply via GitHub issue template
+
+---
+
+## Why This Matters
+
+**The standards vacuum:** "Receipts-native" is used by 5+ builders (Hackett MetaOS, Brevis, Miden, idOS, Keystone) with zero canonical definition—until now.
+
+**The opportunity:** Most category creators (HashiCorp, Stripe) built tech first, then standards emerged. We're doing it reverse: **standard → working group → ecosystem**.
+
+**The proof:** ProofPack already works. Now we're building the category.
+
+---
+
+## Citation
+
+```bibtex
 @techreport{cook2025receipts,
   author = {Cook, Matthew},
   title = {Receipts-Native Architecture: A Formal Definition},
@@ -139,11 +148,24 @@ bibtex
   year = {2025},
   url = {https://github.com/receipts-native-standard/canonical-definition}
 }
+```
 
-LICENSE & CONTRIBUTION
-CC-BY-4.0 (open, attribution required). Submit PRs for definition improvements. Working Group: Monthly virtual meetup (starts Feb 2025).
-Standards Vacuum Identified: Term "receipts-native" used by 5+ builders (Hackett MetaOS, Brevis, Miden, idOS, Keystone), zero canonical definitions exist until now.
+---
 
-BOTTOM LINE: If you can disable receipts and still operate → not receipts-native. If system halts without receipts → receipts-native. The substrate decides.
- 
+## License
 
+This work is licensed under [CC-BY-4.0](./LICENSE). You are free to share and adapt with attribution.
+
+---
+
+## Contact
+
+- **GitHub Issues:** Questions, proposals, applications
+- **Working Group:** Monthly meetings (starting February 2025)
+- **Founder:** Matthew Cook, Keystone Research Lab
+
+---
+
+**If you can disable receipts and still operate → not receipts-native.**
+**If system halts without receipts → receipts-native.**
+**The substrate decides.**
