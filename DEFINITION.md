@@ -79,7 +79,7 @@ Legitimate operations compress efficiently (≥0.85 ratio). Fraudulent operation
 
 ## REFERENCE IMPLEMENTATION
 
-**Starter Kit:** `github.com/receipts-native-standard/starter`
+**Starter Kit:** See the [starter kit](starter/) for ready-to-use implementations.
 - Core primitives: `dual_hash()`, `emit_receipt()`, `merkle_root()`, `StopRule()`
 - Compliance suite: 6 principle tests
 - Migration guide: Logging → Receipts-native (10 steps)
@@ -94,7 +94,7 @@ Legitimate operations compress efficiently (≥0.85 ratio). Fraudulent operation
 ```
 Cook, M. (2025). "Receipts-Native Architecture: Formal Definition."
 Keystone Research Lab.
-https://github.com/receipts-native-standard/canonical-definition
+https://github.com/northstaraokeystone/receipts-native-standard
 ```
 
 **BibTeX:**
@@ -104,7 +104,7 @@ https://github.com/receipts-native-standard/canonical-definition
   title = {Receipts-Native Architecture: A Formal Definition},
   institution = {Keystone Research Lab},
   year = {2025},
-  url = {https://github.com/receipts-native-standard/canonical-definition}
+  url = {https://github.com/northstaraokeystone/receipts-native-standard}
 }
 ```
 

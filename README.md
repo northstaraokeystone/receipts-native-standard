@@ -146,7 +146,7 @@ receipts-native-standard/
   title = {Receipts-Native Architecture: A Formal Definition},
   institution = {Keystone Research Lab},
   year = {2025},
-  url = {https://github.com/receipts-native-standard/canonical-definition}
+  url = {https://github.com/northstaraokeystone/receipts-native-standard}
 }
 ```
 

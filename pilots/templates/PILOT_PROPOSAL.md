@@ -207,7 +207,7 @@ def verify_receipts_native(system):
 
 ### C. References
 
-- [Receipts-Native Standard](https://github.com/receipts-native-standard/canonical-definition)
+- [Receipts-Native Standard](https://github.com/northstaraokeystone/receipts-native-standard)
 - [ProofPack Repository](https://github.com/northstaraokeystone/ProofPack)
 
 ---
