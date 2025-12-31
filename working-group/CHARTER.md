@@ -183,7 +183,7 @@ This charter may be amended by:
 
 ## 10. CONTACT
 
-- **GitHub:** [receipts-native-standard/canonical-definition](https://github.com/receipts-native-standard/canonical-definition)
+- **GitHub:** [receipts-native-standard](https://github.com/northstaraokeystone/receipts-native-standard)
 - **Chair:** Matthew Cook (Keystone Research Lab)
 - **Apply:** Open GitHub issue with "Join Working Group" template
 

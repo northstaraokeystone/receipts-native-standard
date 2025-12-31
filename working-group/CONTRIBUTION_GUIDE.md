@@ -69,7 +69,7 @@ Welcome to the Receipts-Native Standard. This guide explains how to contribute t
 **What:** Build a receipts-native system and share learnings.
 
 **How:**
-1. Use the [starter kit](https://github.com/receipts-native-standard/starter)
+1. Use the [starter kit](../starter/)
 2. Run compliance tests
 3. Document your implementation
 4. Add to implementations list via PR
