@@ -19,7 +19,7 @@ The Receipts-Native Working Group exists to:
 
 ## 2. WHY THIS WORKING GROUP EXISTS
 
-I built everything here—ProofPack, this standard, the compliance tests—by orchestrating agentic teams. One human, multiple LLMs across different platforms.
+I built everything here; ProofPack, receipts-native, the compliance tests, all by orchestrating agentic teams. One human, multiple LLMs across different platforms.
 
 **That proved I could build the technology. Now I need humans to scale the category.**
 
