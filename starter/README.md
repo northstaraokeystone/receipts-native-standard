@@ -2,6 +2,8 @@
 
 Get started building receipts-native systems in 5 minutes.
 
+I built this starter kit (along with everything else here) by orchestrating agentic teams—one human, multiple LLMs. It's battle-tested against my production systems.
+
 ## What's Included
 
 - `core_primitives.py` - Core functions (dual_hash, emit_receipt, merkle, StopRule)

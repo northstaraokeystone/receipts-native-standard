@@ -1,6 +1,6 @@
 # ProofPack Case Study: Medicare Fraud Detection
 
-**Organization:** Northstar AO Keystone Research Lab
+**Organization:** Keystone Research Lab
 **Domain:** Government Fraud Detection
 **Technology:** Receipts-Native Architecture
 **Results:** 100% recall, 0% false positives (147 cases)
@@ -14,13 +14,28 @@ Medicare fraud costs $60B+ annually. Traditional detection relies on human patte
 - Low recall (fraud escapes detection)
 - No audit trail (decisions unexplainable)
 
-## The Solution
+## My Solution
 
-ProofPack applies **compression-based fraud detection** with receipts-native governance:
+I built ProofPack with **compression-based fraud detection** and receipts-native governance:
 
 1. **Compression = Discovery:** Legitimate claims compress well (predictable patterns). Fraudulent claims don't (must evade detection).
 2. **Receipts = Proof:** Every detection step emits cryptographic receipt. Full audit trail, zero trust required.
 3. **Query-as-Proof:** Fraud alerts derived from receipts on query, not pre-stored. Prevents gaming.
+
+## How I Built It
+
+I built ProofPack by orchestrating agentic teams—one human, multiple LLMs across different platforms. That's my secret sauce.
+
+The agents handled:
+- Core detection algorithms
+- Receipt emission infrastructure
+- Merkle tree anchoring
+- Compliance test suites
+
+What I needed humans for (and still do):
+- Government procurement navigation
+- Regulatory relationships
+- Domain credibility
 
 ## Implementation
 

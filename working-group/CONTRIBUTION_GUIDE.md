@@ -4,6 +4,16 @@ Welcome to the Receipts-Native Standard. This guide explains how to contribute t
 
 ---
 
+## How I Built This
+
+I built everything here—ProofPack, this standard, the compliance tests, the starter kit—by orchestrating agentic teams. One human, multiple LLMs across different platforms.
+
+**The agents got me here. Now I need humans to help scale the category.**
+
+I'm not looking for more coders. I'm looking for domain experts, industry practitioners, and community builders who can take receipts-native into new spaces.
+
+---
+
 ## Ways to Contribute
 
 ### 1. Improve the Standard
@@ -130,9 +140,9 @@ Welcome to the Receipts-Native Standard. This guide explains how to contribute t
 ### Documentation / Tooling
 
 1. **PR:** Submit pull request
-2. **Review:** Maintainer reviews within 7 days
+2. **Review:** I review within 7 days
 3. **Revision:** Address feedback
-4. **Merge:** Maintainer merges
+4. **Merge:** Merged after approval
 
 ---
 
@@ -147,7 +157,7 @@ Contributors are recognized in:
 
 ## Code of Conduct
 
-We are committed to providing a welcoming and inclusive environment. All contributors are expected to:
+I'm committed to providing a welcoming and inclusive environment. All contributors are expected to:
 
 - Be respectful and constructive
 - Focus on technical merit

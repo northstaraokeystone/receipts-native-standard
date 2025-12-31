@@ -1,9 +1,9 @@
 # Receipts-Native Roadmap
 
-**Last Updated:** 2024-12-30
+**Last Updated:** 2024-12-31
 **Status:** Active
 
-> All dates are targets, not commitments. Progress tracked publicly in this document.
+> All dates are targets, not commitments. I track progress publicly in this document.
 
 ---
 
@@ -14,7 +14,7 @@
 | Item | Target | Status |
 |------|--------|--------|
 | Definition v1.1 published | Dec 2024 | ✅ Complete |
-| Starter kit with compliance tests | Jan 2025 | 🎯 Planned |
+| Starter kit with compliance tests | Jan 2025 | ✅ Complete |
 | Receipt bundle examples published | Jan 2025 | 🎯 Planned |
 | Migration guide (logging → receipts-native) | Feb 2025 | 🎯 Planned |
 
@@ -126,7 +126,8 @@
 | Date | Change |
 |------|--------|
 | 2024-12-30 | Initial roadmap published |
+| 2024-12-31 | Starter kit marked complete |
 
 ---
 
-*This roadmap is reviewed monthly at working group meetings.*
+*I review this roadmap monthly at working group meetings.*

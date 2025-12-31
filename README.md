@@ -22,6 +22,7 @@
 | Resource | Description |
 |----------|-------------|
 | [**DEFINITION.md**](./DEFINITION.md) | The formal v1.1 standard |
+| [**Starter Kit**](./starter/) | Get running in 5 minutes |
 | [**Working Group**](./working-group/) | Charter, members, roadmap |
 | [**RECRUITING.md**](./RECRUITING.md) | Join the steering committee |
 | [**ProofPack**](https://github.com/northstaraokeystone/ProofPack) | Reference implementation |
@@ -53,27 +54,38 @@ Pass all 6 → receipts-native. Fail any → receipts-augmented.
 
 ---
 
+## How I Built This
+
+I'm one person with agentic teams. My secret sauce: orchestrating multiple LLMs across different platforms to build what would normally require a full engineering organization.
+
+This entire standard—the definition, the compliance tests, the starter kit, the working group infrastructure—was built by me coordinating AI agents. I proved I could build the agentic teams needed to get here.
+
+**Now I need humans to scale.**
+
+The working group isn't about finding people to help me code. It's about finding domain experts who understand where receipts-native matters most: government fraud, healthcare compliance, autonomous systems, defense. The agents got me to the starting line. Humans get us to the finish.
+
+---
+
 ## Working Group
 
-We're building the receipts-native category with a working group from day zero.
+I'm building the receipts-native category with a working group from day zero.
 
 ### Current State (Honest)
 
 | Metric | Status |
 |--------|--------|
-| Steering members | 1 (founder) |
+| Steering members | 1 (me) |
 | Open seats | 6 |
 | First meeting | February 2025 |
 
-### Open Seats
+### Why I Need You
 
-We're recruiting experts in:
-- ZK/Cryptography
-- Enterprise Compliance
-- Government/Defense
-- Healthcare/FDA
-- Autonomous Systems
-- Open Source Infrastructure
+I've proven the tech works (ProofPack). I've proven I can build with agents. What I can't do alone:
+
+- **Navigate government procurement** (need someone who speaks that language)
+- **Map to FDA 21 CFR Part 11** (need regulatory expertise)
+- **Build ZK integrations** (need cryptography depth)
+- **Drive enterprise adoption** (need compliance practitioners)
 
 **[Apply to join →](./RECRUITING.md)**
 
@@ -88,6 +100,7 @@ receipts-native-standard/
 ├── CHANGELOG.md                 # Version history
 ├── LICENSE                      # CC-BY-4.0
 ├── RECRUITING.md                # Join the working group
+├── starter/                     # Quick start kit
 ├── working-group/
 │   ├── CHARTER.md               # Governance model
 │   ├── MEMBERS.md               # Current + recruiting
@@ -110,15 +123,9 @@ receipts-native-standard/
 ### Implement the Standard
 
 1. Read [DEFINITION.md](./DEFINITION.md)
-2. Review [ProofPack](https://github.com/northstaraokeystone/ProofPack) as reference
-3. Run compliance tests against your system
-4. Add your implementation to [MEMBERS.md](./working-group/MEMBERS.md)
-
-### Contribute to the Standard
-
-1. Read [CONTRIBUTION_GUIDE.md](./working-group/CONTRIBUTION_GUIDE.md)
-2. Open issues for proposals
-3. Join the working group
+2. Run the [starter kit](./starter/) (5 minutes)
+3. Review [ProofPack](https://github.com/northstaraokeystone/ProofPack) as reference
+4. Run compliance tests against your system
 
 ### Join the Working Group
 
@@ -132,9 +139,9 @@ receipts-native-standard/
 
 **The standards vacuum:** "Receipts-native" is used by 5+ builders (Hackett MetaOS, Brevis, Miden, idOS, Keystone) with zero canonical definition—until now.
 
-**The opportunity:** Most category creators (HashiCorp, Stripe) built tech first, then standards emerged. We're doing it reverse: **standard → working group → ecosystem**.
+**My approach:** Most category creators (HashiCorp, Stripe) built tech first, then standards emerged. I'm doing it reverse: **standard → working group → ecosystem**.
 
-**The proof:** ProofPack already works. Now we're building the category.
+**The proof:** ProofPack already works. Now I'm building the category.
 
 ---
 

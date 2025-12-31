@@ -1,12 +1,28 @@
 # Open Positions: Receipts-Native Working Group
 
-We're building the receipts-native category from day zero with a working group model.
+I'm building the receipts-native category from day zero with a working group model.
 
-**Unlike other category creators** who built tech first and standardized later, we're doing it reverse:
+**Unlike other category creators** who built tech first and standardized later, I'm doing it reverse:
 
 **standard → working group → ecosystem**
 
 This is possible because ProofPack already proves the tech works.
+
+---
+
+## WHY THIS MATTERS TO ME
+
+I built everything you see here—ProofPack, this standard, the compliance tests, the starter kit—by orchestrating agentic teams. One human, multiple LLMs across different platforms. That's my secret sauce.
+
+**The agents got me here. Now I need humans to scale.**
+
+What agents can't do:
+- Navigate government procurement cycles
+- Build relationships with FDA regulators
+- Speak the language of enterprise compliance officers
+- Bring credibility from decades of domain experience
+
+That's what the working group is for. I'm not looking for more coders. I'm looking for **domain experts who can take receipts-native into the spaces where it matters most**.
 
 ---
 
@@ -41,7 +57,7 @@ Target domains: government fraud ($1T+ addressable), autonomous systems, clinica
 
 **Potential orgs:** Starkware, zkSync, Aztec, Polygon, RISC Zero, Succinct, academic cryptography labs
 
-**Why receipts-native needs you:** ZK proofs + receipts = verifiable computation with audit trail. The intersection is powerful.
+**Why I need you:** ZK proofs + receipts = verifiable computation with audit trail. The intersection is powerful, and I need someone who can see it.
 
 ---
 
@@ -54,7 +70,7 @@ Target domains: government fraud ($1T+ addressable), autonomous systems, clinica
 
 **Potential orgs:** Vanta, Drata, Secureframe, Big 4 tech advisory, compliance consultancies
 
-**Why receipts-native needs you:** Compliance is about evidence. Receipts are evidence. The mapping is natural but needs domain expertise.
+**Why I need you:** Compliance is about evidence. Receipts are evidence. The mapping is natural but needs someone who's lived it.
 
 ---
 
@@ -67,7 +83,7 @@ Target domains: government fraud ($1T+ addressable), autonomous systems, clinica
 
 **Potential orgs:** Defense contractors, government consulting firms, DIU alumni, federal CTOs
 
-**Why receipts-native needs you:** Government is the largest buyer of accountability infrastructure. We need someone who speaks their language.
+**Why I need you:** Government is the largest buyer of accountability infrastructure. I need someone who speaks their language.
 
 ---
 
@@ -80,7 +96,7 @@ Target domains: government fraud ($1T+ addressable), autonomous systems, clinica
 
 **Potential orgs:** Pharma companies, device manufacturers, CROs, FDA alumni, healthcare IT
 
-**Why receipts-native needs you:** 21 CFR Part 11 = receipts. The regulatory framework already demands what we're building.
+**Why I need you:** 21 CFR Part 11 = receipts. The regulatory framework already demands what I'm building.
 
 ---
 
@@ -93,7 +109,7 @@ Target domains: government fraud ($1T+ addressable), autonomous systems, clinica
 
 **Potential orgs:** Tesla, Waymo, Cruise, Aurora, drone companies, robotics startups, autonomous vehicle suppliers
 
-**Why receipts-native needs you:** When autonomous systems fail, receipts enable reconstruction. This is existential for the industry.
+**Why I need you:** When autonomous systems fail, receipts enable reconstruction. This is existential for the industry.
 
 ---
 
@@ -106,7 +122,7 @@ Target domains: government fraud ($1T+ addressable), autonomous systems, clinica
 
 **Potential orgs:** CNCF maintainers, Linux Foundation contributors, Apache committers, successful OSS founders
 
-**Why receipts-native needs you:** Standards succeed through community. We need someone who's built community before.
+**Why I need you:** Standards succeed through community. I need someone who's built community before.
 
 ---
 
@@ -136,7 +152,7 @@ Target domains: government fraud ($1T+ addressable), autonomous systems, clinica
 - Vote on proposals within 7 days
 - (Optional) Represent working group at conferences
 
-We respect your time. No busywork.
+I respect your time. No busywork.
 
 ---
 
@@ -160,7 +176,7 @@ We respect your time. No busywork.
    - What you would contribute
    - (Optional) Link to existing receipts-native implementation
 
-3. Steering committee reviews within 30 days
+3. I'll review within 30 days
 
 4. Welcome call + first meeting invitation
 
@@ -182,7 +198,7 @@ We respect your time. No busywork.
 
 - Open a GitHub issue with the `question` label
 - Check the [CHARTER.md](/working-group/CHARTER.md) for governance details
-- Review the [DEFINITION.md](/DEFINITION.md) for what we're standardizing
+- Review the [DEFINITION.md](/DEFINITION.md) for what I'm standardizing
 
 ---
 
@@ -190,11 +206,11 @@ We respect your time. No busywork.
 
 Most category creators (HashiCorp, Stripe, Docker) built tech first, then standards emerged organically.
 
-We're doing it differently: **standard first, working group from day zero, ecosystem follows.**
+I'm doing it differently: **standard first, working group from day zero, ecosystem follows.**
 
-ProofPack proves the tech works. Now we need the working group to prove the category is real.
+ProofPack proves the tech works. I proved I can build with agents. Now I need humans to prove the category is real.
 
-**Join us.**
+**Join me.**
 
 ---
 
