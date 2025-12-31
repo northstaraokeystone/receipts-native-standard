@@ -1,14 +1,14 @@
 # Pilot Proposal: [ORGANIZATION NAME]
 
 **Date:** [DATE]
-**Prepared by:** Keystone Research Lab
+**Prepared by:** Matthew Cook, Keystone Research Lab
 **Version:** 1.0
 
 ---
 
 ## 1. EXECUTIVE SUMMARY
 
-[2-3 sentences: What we're proposing and why it matters to them]
+[2-3 sentences: What I'm proposing and why it matters to them]
 
 ---
 
@@ -35,7 +35,7 @@
 
 ---
 
-## 3. PROPOSED SOLUTION
+## 3. MY SOLUTION
 
 ### Receipts-Native Architecture
 
@@ -45,6 +45,12 @@
 - Compression-based fraud detection (physics-based, not heuristic)
 - Verifiable audit trails (cryptographic, not manual)
 - Offline-capable governance (no network dependency)
+
+### How I Built It
+
+I built ProofPack and this entire standard by orchestrating agentic teams—one human, multiple LLMs across different platforms. That's my secret sauce.
+
+The agents handled the engineering. What I need humans for: navigating your domain, building relationships, bringing credibility that comes from decades of experience.
 
 ### ProofPack Implementation
 

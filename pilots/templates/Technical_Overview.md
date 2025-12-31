@@ -6,6 +6,16 @@
 
 ---
 
+## How I Built This
+
+I built ProofPack and this entire standard by orchestrating agentic teams—one human, multiple LLMs across different platforms. That's my secret sauce.
+
+**The agents got me here. Now I need humans to scale the category.**
+
+I'm recruiting domain experts for a working group: government procurement specialists, FDA regulatory experts, ZK cryptographers, enterprise compliance practitioners.
+
+---
+
 ## Problem Statement
 
 **Traditional accountability:**
@@ -286,4 +296,4 @@ Regulators audit receipts, not systems.
 - Working Group: Launching Feb 2025
 - Receipt Bundle: [Download link]
 
-**Contact:** [Working group link]
+**Contact:** Matthew Cook, Keystone Research Lab

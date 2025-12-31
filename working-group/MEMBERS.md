@@ -14,7 +14,7 @@
 
 ### Open Seats (6)
 
-We are actively recruiting for diverse industry representation:
+I'm actively recruiting for diverse industry representation:
 
 | Seat | Domain | Target Profile | Status |
 |------|--------|----------------|--------|
@@ -29,6 +29,20 @@ We are actively recruiting for diverse industry representation:
 
 ---
 
+## WHY I NEED HUMANS
+
+I built everything here with agentic teams—one human orchestrating multiple LLMs across different platforms. That's my secret sauce.
+
+But agents can't:
+- Navigate government procurement cycles
+- Build FDA regulatory relationships
+- Bring decades of domain credibility
+- Open doors that require human trust
+
+The working group is how I find the domain experts who can take receipts-native into the spaces where it matters most.
+
+---
+
 ## HOW TO APPLY
 
 1. Open GitHub issue using ["Join Working Group" template](../.github/ISSUE_TEMPLATE/join-working-group.md)
@@ -38,7 +52,7 @@ We are actively recruiting for diverse industry representation:
    - Significant contribution to standard/tooling, OR
    - Deep domain expertise in target area
 
-3. Steering committee review (30 days maximum)
+3. I review within 30 days
 
 4. Acceptance vote
 

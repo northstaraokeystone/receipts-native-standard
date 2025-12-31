@@ -17,9 +17,25 @@ The Receipts-Native Working Group exists to:
 
 ---
 
-## 2. CURRENT STATE
+## 2. WHY THIS WORKING GROUP EXISTS
 
-> **Transparency Note:** This working group is in founding stage. We are honest about where we are today.
+I built everything here—ProofPack, this standard, the compliance tests—by orchestrating agentic teams. One human, multiple LLMs across different platforms.
+
+**That proved I could build the technology. Now I need humans to scale the category.**
+
+The agents can't:
+- Navigate government procurement
+- Build FDA regulatory relationships
+- Bring decades of domain credibility
+- Open doors that require human trust
+
+That's what this working group is for. I'm recruiting domain experts who understand where receipts-native matters, not people to help me write code.
+
+---
+
+## 3. CURRENT STATE
+
+> **Transparency Note:** This working group is in founding stage. I'm honest about where I am today.
 
 ### Active Members
 
@@ -29,7 +45,7 @@ The Receipts-Native Working Group exists to:
 
 ### Recruiting
 
-We are actively recruiting **6 additional steering committee members** to ensure diverse industry representation and prevent single-organization capture.
+I'm actively recruiting **6 additional steering committee members** to ensure diverse industry representation and prevent single-organization capture.
 
 **Target Composition:**
 - ZK/Cryptography domain expert
@@ -43,26 +59,26 @@ We are actively recruiting **6 additional steering committee members** to ensure
 
 ---
 
-## 3. GOVERNANCE MODEL
+## 4. GOVERNANCE MODEL
 
-### 3.1 Steering Committee
+### 4.1 Steering Committee
 
 - **Size:** 7 members (target)
 - **Decision-making:** Consensus preferred, majority vote when needed
 - **Quorum:** 4 members for binding decisions
 - **Term:** 2 years, renewable
 
-### 3.2 Chair Role
+### 4.2 Chair Role
 
-- **Founder chairs first 24 months** (through December 2026)
+- **I chair the first 24 months** (through December 2026)
 - **Transition:** Community election for subsequent chairs
-- **Responsibilities:**
+- **My responsibilities:**
   - Schedule and run meetings
   - Manage standard evolution process
   - Represent working group publicly
   - Break tie votes
 
-### 3.3 Voting
+### 4.3 Voting
 
 - **Standard changes:** Require 2/3 majority
 - **Membership:** Simple majority
@@ -71,9 +87,9 @@ We are actively recruiting **6 additional steering committee members** to ensure
 
 ---
 
-## 4. HOW TO JOIN
+## 5. HOW TO JOIN
 
-### 4.1 Eligibility Requirements
+### 5.1 Eligibility Requirements
 
 You must have **ONE** of the following:
 
@@ -81,7 +97,7 @@ You must have **ONE** of the following:
 2. **Significant Contribution:** Major contribution to standard, tooling, or documentation
 3. **Domain Expertise:** Deep expertise in target domain (compliance, government, healthcare, autonomous, ZK)
 
-### 4.2 Application Process
+### 5.2 Application Process
 
 1. Open GitHub issue using ["Join Working Group" template](../.github/ISSUE_TEMPLATE/join-working-group.md)
 2. Provide:
@@ -89,10 +105,10 @@ You must have **ONE** of the following:
    - Why receipts-native matters to your domain
    - What you would contribute
    - (Optional) Link to existing implementation
-3. Steering committee review (30 days max)
-4. Acceptance vote (currently: founder decision until 3+ members)
+3. I review within 30 days
+4. Acceptance vote (currently: my decision until 3+ members)
 
-### 4.3 Member Responsibilities
+### 5.3 Member Responsibilities
 
 - Attend monthly meetings (1 hour)
 - Participate in async standard discussions
@@ -101,9 +117,9 @@ You must have **ONE** of the following:
 
 ---
 
-## 5. STANDARD EVOLUTION
+## 6. STANDARD EVOLUTION
 
-### 5.1 Proposal Process
+### 6.1 Proposal Process
 
 1. **Draft:** Open GitHub issue with proposal
 2. **Discussion:** 14-day minimum comment period
@@ -112,13 +128,13 @@ You must have **ONE** of the following:
 5. **Implementation:** Update compliance tests
 6. **Release:** Publish new version
 
-### 5.2 Versioning
+### 6.2 Versioning
 
 - **Major (X.0.0):** Breaking changes to core principles
 - **Minor (0.X.0):** New principles, significant clarifications
 - **Patch (0.0.X):** Typos, minor clarifications
 
-### 5.3 Backwards Compatibility
+### 6.3 Backwards Compatibility
 
 - Major versions may break compatibility
 - 90-day transition period for breaking changes
@@ -126,16 +142,16 @@ You must have **ONE** of the following:
 
 ---
 
-## 6. MEETINGS
+## 7. MEETINGS
 
-### 6.1 Schedule
+### 7.1 Schedule
 
 - **Frequency:** Monthly
 - **Duration:** 1 hour
 - **Format:** Virtual (video call)
 - **First Meeting:** February 2025
 
-### 6.2 Agenda
+### 7.2 Agenda
 
 Standard agenda:
 1. Roll call and quorum check (5 min)
@@ -144,7 +160,7 @@ Standard agenda:
 4. Adoption updates (10 min)
 5. New business (10 min)
 
-### 6.3 Records
+### 7.3 Records
 
 - Meeting notes published in `working-group/meetings/`
 - Recordings available to members
@@ -152,7 +168,7 @@ Standard agenda:
 
 ---
 
-## 7. INTELLECTUAL PROPERTY
+## 8. INTELLECTUAL PROPERTY
 
 - **Standard:** CC-BY-4.0 (open, attribution required)
 - **Contributions:** Contributors retain copyright, grant perpetual license
@@ -161,7 +177,7 @@ Standard agenda:
 
 ---
 
-## 8. ANTI-CAPTURE PROVISIONS
+## 9. ANTI-CAPTURE PROVISIONS
 
 To prevent single-organization dominance:
 
@@ -172,7 +188,7 @@ To prevent single-organization dominance:
 
 ---
 
-## 9. AMENDMENTS
+## 10. AMENDMENTS
 
 This charter may be amended by:
 - 2/3 majority of steering committee
@@ -181,7 +197,7 @@ This charter may be amended by:
 
 ---
 
-## 10. CONTACT
+## 11. CONTACT
 
 - **GitHub:** [receipts-native-standard](https://github.com/northstaraokeystone/receipts-native-standard)
 - **Chair:** Matthew Cook (Keystone Research Lab)

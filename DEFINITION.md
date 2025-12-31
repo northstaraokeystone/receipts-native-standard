@@ -37,6 +37,16 @@ Receipts-native architecture makes cryptographic receipts the primary data struc
 
 ---
 
+## HOW I BUILT THIS
+
+I built all three production systems—and this entire standard—by orchestrating agentic teams. One human, multiple LLMs across different platforms. That's my secret sauce.
+
+**The agents got me here. Now I need humans to scale the category.**
+
+I'm recruiting domain experts for a working group: government procurement specialists, FDA regulatory experts, ZK cryptographers, enterprise compliance practitioners. The agents can write code; humans can open doors.
+
+---
+
 ## DISTINCTIONS
 
 | Architecture | Primary Structure | Verification | Offline Capable | Consensus Required |
