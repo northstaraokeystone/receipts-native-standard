@@ -149,7 +149,7 @@ You must have **ONE** of the following:
 - **Frequency:** Monthly
 - **Duration:** 1 hour
 - **Format:** Virtual (video call)
-- **First Meeting:** February 2025
+- **First Meeting:** TBD 2025
 
 ### 7.2 Agenda
 
