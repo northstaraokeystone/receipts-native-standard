@@ -1,6 +1,6 @@
 # Receipts-Native Working Group Meeting
 
-**Date:** February 2025 (TBD)
+**Date:** 2025 (TBD)
 **Time:** TBD
 **Location:** Virtual (link TBD)
 **Status:** Scheduled
@@ -33,7 +33,7 @@
 
 ### 3. Roadmap Review (15 min)
 
-- Review Q1 2025 targets
+- Review 2025 targets
 - Discuss priorities
 - Assign owners
 
@@ -79,7 +79,7 @@
 
 ## Next Meeting
 
-- **Date:** March 2025 (TBD)
+- **Date:** 2025 (TBD)
 - **Agenda items for next time:**
   -
 
