@@ -54,11 +54,13 @@ Pass all 6 → receipts-native. Fail any → receipts-augmented.
 
 ---
 
-## How I Built This
+## The How
 
-I'm one person with agentic teams. My secret sauce: orchestrating multiple LLMs across different platforms to build what would normally require a full engineering organization.
+One HITL orchestrating multi-modal, specoalized, agentic teams. My secret sauce: LLMs across different platforms to build what would normally require a full engineering organization.
 
-This entire standard—the definition, the compliance tests, the starter kit, the working group infrastructure—was built by me coordinating AI agents. I proved I could build the agentic teams needed to get here.
+This entire standard—the definition, the compliance tests, the starter kit, the working group infrastructure—was built by me coordinating AI agents through an iterative stratagy process.
+
+Proved to myself I can do it. Agents are great but I'm as far as I can go alone.
 
 **Now I need humans to scale.**
 
@@ -76,7 +78,7 @@ I'm building the receipts-native category with a working group from day zero.
 |--------|--------|
 | Steering members | 1 (me) |
 | Open seats | 6 |
-| First meeting | February 2025 |
+| First meeting | TBD 2025 |
 
 ### Why I Need You
 
@@ -141,7 +143,7 @@ receipts-native-standard/
 
 **My approach:** Most category creators (HashiCorp, Stripe) built tech first, then standards emerged. I'm doing it reverse: **standard → working group → ecosystem**.
 
-**The proof:** ProofPack already works. Now I'm building the category.
+**The proof:** ProofPack & th self-healing ledger are live. Now its time to take the category to the industry & ensure AI has receipts-native acrchitedture where it matters most. 
 
 ---
 
