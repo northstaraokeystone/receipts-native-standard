@@ -8,7 +8,7 @@
 |--------|-----|
 | Steering members | 1 (me) |
 | Open seats | 6 |
-| First meeting | Feb 2025 |
+| First meeting | TBD 2025 |
 
 ## Open Seats
 
