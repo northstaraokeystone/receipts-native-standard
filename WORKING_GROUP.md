@@ -57,4 +57,4 @@
 
 | System | Domain | Link |
 |--------|--------|------|
-| ProofPack | Gov fraud | [github](https://github.com/northstaraokeystone/
+| ProofPack | Gov fraud | [github](https://github.com/northstaraokeystone/)
