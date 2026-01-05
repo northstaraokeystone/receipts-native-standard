@@ -51,11 +51,11 @@ Legitimate operations compress efficiently (≥0.85 ratio). Fraud evades detecti
 ## Citation
 
 ```bibtex
-@techreport{cook2025receipts,
+@techreport{cook2026receipts,
   author = {Cook, Matthew},
   title = {Receipts-Native Architecture: A Formal Definition},
   institution = {Keystone Research Lab},
-  year = {2025},
+  year = {2026},
   url = {https://github.com/northstaraokeystone/receipts-native-standard}
 }
 ```
