@@ -57,8 +57,4 @@
 
 | System | Domain | Link |
 |--------|--------|------|
-| ProofPack | Gov fraud | [github](https://github.com/northstaraokeystone/ProofPack) |
-
----
-
-**Contact:** GitHub issues or monthly meetings (starting Feb 2025)
+| ProofPack | Gov fraud | [github](https://github.com/northstaraokeystone/
